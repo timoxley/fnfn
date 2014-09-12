@@ -1,0 +1,36 @@
+{
+  "name": "fnfn",
+  "version": "0.0.1",
+  "description": "Add before/after/around/guard functions to an api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author": "Tim Oxley <secoif@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^2.13.3"
+  },
+  "dependencies": {
+    "afterfn": "~2.1.1",
+    "aroundfn": "0.0.1",
+    "beforefn": "~2.3.1",
+    "guardfn": "~1.0.0",
+    "sliced": "0.0.5"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timoxley/fnfn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timoxley/fnfn/issues"
+  },
+  "homepage": "https://github.com/timoxley/fnfn",
+  "keywords": [
+    "aop",
+    "functional"
+  ]
+}
